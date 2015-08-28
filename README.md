@@ -1,7 +1,11 @@
 # less-tutorial
 A less tutorial using grunt
 #
+$sudo npm install -g grunt-cli
+#
 npm install
+#
+grunt
 #
 run: grunt
 #
