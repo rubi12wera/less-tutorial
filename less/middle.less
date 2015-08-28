@@ -1,0 +1,24 @@
+section.middle {
+  .btn {
+    @btn-color: #FF8686;
+    background-color: @btn-color;
+    padding: 20px;
+    border: 0;
+    border-bottom: 5px solid darken(@btn-color, 40%);
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+
+    // We can do better than this:
+    outline: none !important;
+    box-shadow: none !important;
+
+    &:hover {
+      background-color: darken(@btn-color, 5%);
+    }
+
+    &:active {
+      border-bottom: 0;
+    }
+  }
+}
